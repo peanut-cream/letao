@@ -3,8 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
-哈哈哈
+<div class="le_aside">
+  <div class="header">
+    <a href="#">大品牌</a>
+  </div>
+  <div class="user">
+    <img src="./img/default.png" alt="">
+    <p>超级用户</p>
+  </div>
+  <div class="nav">
+    <ul>
+      <li><a href="#" class="active"><span class="glyphicon glyphicon-user"></span> 用户管理</a></li>
+      <li><a href="javaScript:;" class="category"><span class="glyphicon glyphicon-list"></span> 分类管理</a>
+      <ul class="second-ul" style="display: none">
+        <li><a href="#">一级分类</a></li>
+        <li><a href="#">二级分类</a></li>
+      </ul>
+      </li>
+      <li><a href="#"><span class="glyphicon glyphicon-tags"></span> 商品管理</a></li>
+    </ul>
+  </div>
+</div>
+<div class="le_main">
+  <div class="header">
+    <a class="pull-left glyphicon glyphicon-align-justify icon-menu"></a>
+    <a class="pull-right glyphicon glyphicon-log-out icon-loginout"></a>
+  </div>
+  <div class="container-fluid">
+      <ol class="breadcrumb">
+        <li><a href="#">管理系统</a></li>
+        <li><a href="#">首页</a></li>
+      </ol>
+    <div class="item_main"></div>
+  </div>
+</div>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
