@@ -99,3 +99,13 @@ a:link, a:visited, a:hover, a:active{
   color: #fff;
   padding: 0 20px;
 }
+.pic-left{
+  float: left;
+  width: 45%;
+  height: 400px;
+}
+.pic-right{
+  float: right;
+  width: 45%;
+  height: 400px;
+}
