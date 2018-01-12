@@ -25,6 +25,9 @@ html,body{
 .le_aside.now{
   left: -180px;
 }
+a{
+  cursor: pointer;
+}
 a:link, a:visited, a:hover, a:active{
  text-decoration: none;
 }
