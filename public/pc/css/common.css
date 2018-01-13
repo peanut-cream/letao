@@ -125,3 +125,13 @@ a:link, a:visited, a:hover, a:active{
 .btn-add{
   margin-bottom: 20px;
 }
+.fileupload_box{
+  position: relative;
+}
+#fileupload{
+  position: absolute;
+  top:5px;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
