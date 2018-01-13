@@ -21,6 +21,7 @@ html,body{
   left: 0;
   top:0;
   transition: all 1s;
+  z-index: 999;
 }
 .le_aside.now{
   left: -180px;
@@ -88,9 +89,17 @@ a:link, a:visited, a:hover, a:active{
   height: 50px;
   width: 100%;
   background-color: #3c8dbc;
+  padding-left: 180px;
+  position: fixed;
+  left: 0;
+  top:0;
+  transition: all 1s;
+}
+.le_main .header.active{
+  padding-left: 0;
 }
 .le_main .container-fluid{
-  padding-top: 20px;
+  padding-top: 70px;
 }
 
 .icon-menu,.icon-loginout{
@@ -108,4 +117,8 @@ a:link, a:visited, a:hover, a:active{
   float: right;
   width: 45%;
   height: 400px;
+}
+
+.table.table-bordered td{
+  vertical-align: middle;
 }

@@ -33,6 +33,7 @@ $(".category").on("click",function(){
   $(".icon-menu").on("click",function(){
     $(".le_aside").toggleClass("now");
     $(".le_main").toggleClass("now");
+    $(".header").toggleClass("active");
   });
   $(".icon-loginout").on("click",function(){
     $('#modal').modal("show");
