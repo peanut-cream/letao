@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.le_main{
+  background-color: #fff;
+}
+.le_main .main-left{
+  width: 90px;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.main-left li a{
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+
+
+}
+.main-left li{
+  border-right: 1px solid red;
+  border-bottom: 1px solid red;
+  background-color: pink;
+}
+.main-left li.active{
+  background-color: #fff;
+  border-right: 1px solid #fff;
+}
+.le_main .main-right{
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.main-right li{
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.main-right li img{
+  width: 62px;
+  height: 62px;
+  display: block;
+  margin: 0 auto;
+}
