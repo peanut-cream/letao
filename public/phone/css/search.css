@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.le-history{
+  padding: 10px;
+}
+.his-title{
+  font-size: 12px;
+  color:#666;
+}
+.his-title .btn_empty{
+  height: 21px;
+  line-height: 21px;
+}
+.his-list ul{
+  border:1px dashed red;
+}
+.his-list li{
+  font-size: 12px;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;border-bottom: 1px dashed red;
+}
+.his-list li span{
+  line-height: 30px;
+}
+.his-list li:last-child{
+  border:none;
+}

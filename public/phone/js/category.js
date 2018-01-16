@@ -7,7 +7,7 @@ $(function(){
     url:"/category/queryTopCategory",
     success:function(info){
       //console.log(info);
-      $(".cate_ul").html(template("catetemp",info));
+      $(".main-left ul").html(template("catetemp",info));
       productrender(info.rows[0].id);
     }
   });
