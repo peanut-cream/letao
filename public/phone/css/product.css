@@ -19,7 +19,22 @@
   line-height: 30px;
   padding: 5px;
 }
+.lt_size span.now{
+  background-color: #CCC;
+}
 .lt_num span{
   font-size: 12px;
   color: #666;
+}
+.le-cart-shop{
+  width: 100%;
+  max-width: 640px;
+  border-top:1px solid red;
+  height: 55px;
+  padding:10px 10px 0;
+  line-height: 35px;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  box-sizing: border-box;
 }
